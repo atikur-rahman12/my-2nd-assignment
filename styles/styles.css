@@ -350,31 +350,59 @@ footer{
   font-size: 1.1125rem;
 }
 
-.hide{
-  display: none;
-}
+/* Responsive Design */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
 
-  .audio{
-  width: 350px;
-}
+  nav{
+    width: 90%;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.mobile-friendly{
-  width: 350px;
-}
+  .bg{
+    left: -1180px;
+  }
 
-.global{
-  width: 350px;
-}
+  .circle{
+    top: -655px;
+    right: -20px;
+  }
 
-.interviews{
-  width: 350px;
-}
+  .mic{
+    top: -930px;
+    right: -140px;
+  }
 
-.resources{
-  width: 350px;
-}
+  .label{
+    top: -1160px;
+    right: -280px;
+  }
+
+  .hero-text{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    /* top: -850px; */
+  }
+
+  .hero-title{
+    font-size: 36px;
+  }
+
+  .about-prodcast{
+    width: 100%;
+    max-width: 400px;
+    margin: 190px auto;
+  }
+
+  .prodcast-title{
+  font-size: 2rem;
+  }
+
+  .text{
+    font-size: 14px;
+  }
 
   .choose-container{
     grid-template-areas:
@@ -383,28 +411,39 @@ footer{
       "global"
       "interviews"
       "resources";
-    width: 2%;
-    max-width: 400px;
-    margin: 16px 20px;
   }
 
-  #choose h1{
-  font-size: 1.5rem;
-  width: 350px;
-}
-
-  /* .achievements{
+  .achievements{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-  }
+  } 
 
-  
+  .audio, .mobile-friendly, .global, .interviews, .resources{
+    width: 100%;
+    padding: 20px;
+  }
 
   .videos-container{
     grid-template-columns: 1fr;
+    gap: 30px;
+    margin-left: 5px;
+    width: 100%;
+    max-width: 350px;
   }
 
   .host-container{
     flex-direction: column;
-  } */
+    width: 100%;
+    max-width: 350px;
+  }
+
+  footer{
+    padding: 80px 0;
+  }
+
+  .icon-container{
+    width: 100%;
+    max-width: 350px;
+  }
+  
 }
