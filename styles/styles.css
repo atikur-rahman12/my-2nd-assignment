@@ -287,3 +287,37 @@ hr{
   margin-bottom: 24px;
 }
 
+
+/* host-section */
+
+#host{
+  color: white;
+}
+
+#host h1{
+  text-align: center;
+  padding: 120px 0 40px 0;
+  font-size: 3rem;
+}
+
+.host-container{
+  background-color: #230E3D;
+  display: flex;
+  gap: 40px;
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.host-name{
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.host-info a img{
+  margin: 20px 8px;
+}
+
