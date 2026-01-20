@@ -41,6 +41,10 @@ nav{
   align-items: center;
 }
 
+.icon-view{
+  display: none;
+}
+
 .menu{
   list-style: none;
   display: flex;
@@ -354,10 +358,26 @@ footer{
 
 @media screen and (max-width:576px){
 
+  .logo{
+  color: white;
+  font-size: 1.225rem;
+  font-weight: 400;
+  }
+
   nav{
-    width: 90%;
-    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    flex-direction: row;
     gap: 20px;
+    margin: 18px 20px;
+  }
+
+  .icon-view{
+    display: block;
+  }
+
+  .menu-view{
+    display: none;
   }
 
   .bg{
@@ -404,6 +424,10 @@ footer{
     font-size: 14px;
   }
 
+  #choose h1{
+    font-size: 2rem;
+  }
+
   .choose-container{
     grid-template-areas:
       "audio"
@@ -428,7 +452,7 @@ footer{
     gap: 30px;
     margin-left: 5px;
     width: 100%;
-    max-width: 350px;
+    max-width: 250px;
   }
 
   .host-container{
