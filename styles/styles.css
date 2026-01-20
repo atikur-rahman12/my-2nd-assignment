@@ -356,6 +356,26 @@ footer{
 
 @media screen and (max-width:576px) {
 
+  .audio{
+  width: 350px;
+}
+
+.mobile-friendly{
+  width: 350px;
+}
+
+.global{
+  width: 350px;
+}
+
+.interviews{
+  width: 350px;
+}
+
+.resources{
+  width: 350px;
+}
+
   .choose-container{
     grid-template-areas:
       "audio"
@@ -369,8 +389,8 @@ footer{
   }
 
   #choose h1{
-  padding: 40px 20px 20px 0;
   font-size: 1.5rem;
+  width: 350px;
 }
 
   /* .achievements{
